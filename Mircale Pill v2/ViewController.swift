@@ -13,7 +13,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBOutlet weak var stateList: UIPickerView!
     @IBOutlet weak var statePickerBtn: UIButton!
     
-    let states = ["Alaska","Alabama","California","Florida","Maine","New York","Oregon"]
+    let states = ["Alaska","Alabama","California","Florida","Maine","New York","Oregon","Washington"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
